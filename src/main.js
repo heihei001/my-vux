@@ -17,6 +17,7 @@ import {
 Vue.use(AjaxPlugin)
 Vue.use(VueRouter)
 Vue.directive('transfer-dom', TransferDom)
+Vue.prototype.$devicePixelRatio = window.devicePixelRatio
 
 Vue.component('tabbar', Tabbar)
 Vue.component('tabbar-item', TabbarItem)
